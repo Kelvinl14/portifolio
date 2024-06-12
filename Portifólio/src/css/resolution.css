@@ -1,0 +1,35 @@
+@media screen and (min-width: 1020px){
+    .my-profile-content {
+        width: 99%;
+        justify-content: center;
+    }
+
+    .profile {
+        margin-right: 90px;
+    }
+
+    .description {
+        margin-left: 90px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .my-profile-content {
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+    
+    }
+
+    .description {
+        margin-left: 40px;
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .content {
+        display: block;
+        text-align: center;
+    }
+}
